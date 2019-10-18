@@ -43,7 +43,7 @@ if args['targetpath'].endswith('/'):
 
 module = os.path.basename(args['targetpath'])
 if module != 'support':
-    show_dependencies(args['targetpath'], module)
+    show_dependencies(args['targetpath'])
 else:
     for dir in os.listdir(args['targetpath']):
         target = os.path.join(args['targetpath'], dir)
