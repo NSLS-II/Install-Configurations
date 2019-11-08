@@ -1,6 +1,5 @@
-#!/bin/bash
 
-# Script for installing dependancy packages on linux
+
 
 sudo apt-get -y install gcc
 sudo apt-get -y install g++
