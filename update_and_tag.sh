@@ -1,9 +1,12 @@
 #!/bin/bash
 
+# If running behind a proxy, edit this variable to be -c http.proxy=YOUR_PROXY
+GIT_PROXY=""
+
 echo "Grabbing most recent ADCore tag version..."
 # Need to add command to get most recent ADCore tag
-ADCORE_VERSION=($(git -c http.proxy=http://proxy:8888 ls-remote --tags https://github.com/areaDetector/ADCore | awk -F/ '{ print $3 }' | tac))
-
+ADCORE_VERSION=($(git $GITPROXY ls-remote --tags https://github.com/areaDetector/ADCore | awk -F/ '{ print $3 }' | tac))
+echo "$ADCORE_VERSION"
 echo "Grabbing installSynApps..."
 git clone https://github.com/epicsNSLS2-deploy/installSynApps
 
