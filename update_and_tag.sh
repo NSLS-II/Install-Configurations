@@ -12,7 +12,7 @@ git clone https://github.com/epicsNSLS2-deploy/installSynApps
 
 cd installSynApps
 
-echo "Updating version numbers. This May take a while..."
+echo "Updating version numbers. This may take a while..."
 
 for d in ../*/ ; do
   if [ "$d" != "installSynApps" ];
