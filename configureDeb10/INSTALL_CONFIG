@@ -1,5 +1,5 @@
 #
-# INSTALL_CONFIG file saved by installSynApps on 2019-11-03 18:39:27.569259
+# INSTALL_CONFIG file saved by installSynApps on 2019-12-27 13:25:30.468528
 #
 
 INSTALL=/epics
@@ -29,10 +29,10 @@ IPAC             2.15                 $(SUPPORT)/ipac                          i
 ASYN             R4-37                $(SUPPORT)/asyn                          asyn                     YES              YES              YES
 AUTOSAVE         R5-10                $(SUPPORT)/autosave                      autosave                 YES              YES              YES
 ALIVE            R1-1-1               $(SUPPORT)/alive                         alive                    NO               NO               NO
-BUSY             R1-7                 $(SUPPORT)/busy                          busy                     YES              YES              YES
+BUSY             R1-7-2               $(SUPPORT)/busy                          busy                     YES              YES              YES
 SSCAN            R2-11-3              $(SUPPORT)/sscan                         sscan                    YES              YES              YES
 CALC             R3-7-3               $(SUPPORT)/calc                          calc                     YES              YES              YES
-CAMAC            R2-7                 $(SUPPORT)/camac                         camac                    YES              YES              NO
+CAMAC            R2-7-1               $(SUPPORT)/camac                         camac                    YES              YES              NO
 CAPUTRECORDER    R3-1                 $(SUPPORT)/caputRecorder                 caputRecorder            YES              YES              NO
 DAC128V          R2-9                 $(SUPPORT)/dac128V                       dac128V                  YES              YES              NO
 DELAYGEN         R1-2-1               $(SUPPORT)/delaygen                      delaygen                 YES              YES              NO
@@ -40,29 +40,29 @@ DEVLIB2          2.10                 $(SUPPORT)/devlib2                       d
 DXP              R6-0                 $(SUPPORT)/dxp                           dxp                      NO               NO               NO
 DXPSITORO        R1-2                 $(SUPPORT)/dxpSITORO                     dxpSITORO                NO               NO               NO
 DEVIOCSTATS      3.1.16               $(SUPPORT)/iocStats                      iocStats                 YES              YES              YES
-IP               R2-20                $(SUPPORT)/ip                            ip                       NO               NO               NO
+IP               R2-20-1              $(SUPPORT)/ip                            ip                       NO               NO               NO
 IP330            R2-9                 $(SUPPORT)/ip330                         ip330                    NO               NO               NO
 IPUNIDIG         R2-11                $(SUPPORT)/ipUnidig                      ipUnidig                 YES              YES              YES
 LOVE             R3_13_base           $(SUPPORT)/love                          love                     NO               NO               NO
 LUA              R2-1                 $(SUPPORT)/lua                           lua                      NO               NO               NO
 MCA              R7-8                 $(SUPPORT)/mca                           mca                      YES              YES              NO
 MEASCOMP         R2-4                 $(SUPPORT)/measComp                      measComp                 NO               NO               NO
-MODBUS           R3-0                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
+MODBUS           R3-0-RC1             $(SUPPORT)/modbus                        modbus                   YES              YES              YES
 MOTOR            R7-1                 $(SUPPORT)/motor                         motor                    YES              YES              YES
-OPTICS           R2-13                $(SUPPORT)/optics                        optics                   NO               NO               NO
-SOFTGLUE         R2-8                 $(SUPPORT)/softGlue                      softGlue                 NO               NO               NO
+OPTICS           R2-13-3              $(SUPPORT)/optics                        optics                   NO               NO               NO
+SOFTGLUE         R2-8-2               $(SUPPORT)/softGlue                      softGlue                 NO               NO               NO
 SOFTGLUEZYNQ     master               $(SUPPORT)/softGlueZynq                  softGlueZynq             NO               NO               NO
-STD              R3-6                 $(SUPPORT)/std                           std                      YES              YES              YES
+STD              R3-6-1               $(SUPPORT)/std                           std                      YES              YES              YES
 VAC              R1-9                 $(SUPPORT)/vac                           vac                      NO               NO               NO
-VME              R2-9                 $(SUPPORT)/vme                           vme                      NO               NO               NO
+VME              R2-9-2               $(SUPPORT)/vme                           vme                      NO               NO               NO
 YOKOGAWA_DAS     master               $(SUPPORT)/Yokogawa_DAS                  Yokogawa_DAS             NO               NO               NO
 XSPRESS3         master               $(SUPPORT)/xspress3                      xspress3                 YES              NO               YES
 XXX              master               $(SUPPORT)/xxx                           xxx                      NO               NO               NO
-QUADEM           R9-2                 $(SUPPORT)/quadEM                        quadEM                   NO               NO               NO
+QUADEM           R9-2-1               $(SUPPORT)/quadEM                        quadEM                   NO               NO               NO
 
 GIT_URL=https://github.com/paulscherrerinstitute/
 
-STREAM           2.8.10              $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
+STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
 
 WGET_URL=http://www.aps.anl.gov/epics/download/modules/
 
@@ -117,7 +117,7 @@ ADPICAM          master               $(AREA_DETECTOR)/ADPICam                 A
 ADANDOR          R2-8                 $(AREA_DETECTOR)/ADAndor                 ADAndor                  NO               NO               NO
 ADTIMEPIX        master               $(AREA_DETECTOR)/ADTimePix               ADTimePix                NO               NO               NO
 ADDEXELA         R2-3                 $(AREA_DETECTOR)/ADDexela                ADDexela                 NO               NO               NO
-ADMYTHEN         R2-0                 $(AREA_DETECTOR)/ADMythen                ADMythen                 NO               NO               NO
+ADMYTHEN         R2-1                 $(AREA_DETECTOR)/ADMythen                ADMythen                 NO               NO               NO
 ADPCO            R1-0                 $(AREA_DETECTOR)/ADPCO                   ADPCO                    NO               NO               NO
 ADCAMERALINK     master               $(AREA_DETECTOR)/ADCameraLink            ADCameraLink             NO               NO               NO
 FFMPEGSERVER     R3-1                 $(AREA_DETECTOR)/ffmpegServer            ffmpegServer             NO               NO               NO

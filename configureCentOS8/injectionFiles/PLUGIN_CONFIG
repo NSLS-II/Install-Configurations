@@ -1,4 +1,4 @@
-# Saved by installSynApps on 2019-11-08 16:44:21.503664
+# Saved by installSynApps on 2019-12-27 13:25:17.996784
 __TARGET_LOC__=$(AREA_DETECTOR)/ADCore/iocBoot/EXAMPLE_commonPlugins.cmd
 
 NDFileMagickConfigure("FileMagick1", $(QSIZE), 0, "$(PORT)", 0)

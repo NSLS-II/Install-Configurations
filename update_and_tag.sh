@@ -25,7 +25,7 @@ done
 
 cd ..
 rm -rf installSynApps
-exit
+
 read -e -p "Would you like to tag, commit, and push updated tags? (y/n) > " UPDATE
 
 if [ "$UPDATE" == "y" ];
