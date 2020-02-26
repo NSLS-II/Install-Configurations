@@ -5,7 +5,7 @@ GIT_PROXY=""
 
 echo "Grabbing most recent ADCore tag version..."
 # Need to add command to get most recent ADCore tag
-ADCORE_VERSION=($(git $GITPROXY ls-remote --tags https://github.com/areaDetector/ADCore | awk -F/ '{ print $3 }' | tac))
+ADCORE_VERSION=($(git $GIT_PROXY ls-remote --tags https://github.com/areaDetector/ADCore | awk -F/ '{ print $3 }' | tac))
 echo "$ADCORE_VERSION"
 echo "Grabbing installSynApps..."
 git clone https://github.com/epicsNSLS2-deploy/installSynApps
