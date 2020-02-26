@@ -34,7 +34,7 @@ git clone https://github.com/epicsNSLS2-deploy/Docker-Builder
 
 ### Using Legacy Configurations.
 
-If you don't wish to use the most recent set of configurations offered by `Install-Configurations`, you may use the tagged versions. These are based on the ADCore release versions, meaning that a tagged version of `R3-8` would result in a build of EPICS, synApps, and areaDetector using the most recent versions when ADCore R3-8 was released.
+If you don't wish to use the most recent set of configurations offered by `Install-Configurations`, you may use the tagged versions. These are based on the ADCore release versions, meaning that (for example) a tagged version of `R3-8` would result in a build of EPICS, synApps, and areaDetector using the most recent versions when ADCore R3-8 was released.
 
 ### Included Helper Scripts
 
