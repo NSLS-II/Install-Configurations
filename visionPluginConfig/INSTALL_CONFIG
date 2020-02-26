@@ -1,5 +1,5 @@
 #
-# INSTALL_CONFIG file saved by installSynApps on 2019-12-27 13:26:49.056889
+# INSTALL_CONFIG file saved by installSynApps on 2020-02-26 09:40:50.620877
 #
 
 INSTALL=/epics/src
@@ -26,7 +26,7 @@ SNCSEQ           2.2.6                $(SUPPORT)/seq                           s
 GIT_URL=https://github.com/epics-modules/
 
 IPAC             2.15                 $(SUPPORT)/ipac                          ipac                     YES              YES              NO
-ASYN             R4-37                $(SUPPORT)/asyn                          asyn                     YES              YES              YES
+ASYN             R4-39                $(SUPPORT)/asyn                          asyn                     YES              YES              YES
 AUTOSAVE         R5-10                $(SUPPORT)/autosave                      autosave                 YES              YES              YES
 ALIVE            R1-1-1               $(SUPPORT)/alive                         alive                    NO               NO               NO
 BUSY             R1-7-2               $(SUPPORT)/busy                          busy                     YES              YES              YES
@@ -78,9 +78,9 @@ GALIL            V3-6                 $(SUPPORT)/galil                         G
 
 GIT_URL=https://github.com/areaDetector/
 
-AREA_DETECTOR    R3-8                 $(SUPPORT)/areaDetector                  areaDetector             YES              YES              NO
+AREA_DETECTOR    R3-9                 $(SUPPORT)/areaDetector                  areaDetector             YES              YES              NO
 ADSUPPORT        R1-9                 $(AREA_DETECTOR)/ADSupport               ADSupport                YES              YES              YES
-ADCORE           R3-8                 $(AREA_DETECTOR)/ADCore                  ADCore                   YES              YES              YES
+ADCORE           R3-9                 $(AREA_DETECTOR)/ADCore                  ADCore                   YES              YES              YES
 
 GIT_URL=https://github.com/epicsNSLS2-areaDetector/
 
@@ -105,14 +105,14 @@ GIT_URL=https://github.com/areaDetector/
 
 ADPROSILICA      R2-5                 $(AREA_DETECTOR)/ADProsilica             ADProsilica              YES              YES              YES
 ADSIMDETECTOR    R2-10                $(AREA_DETECTOR)/ADSimDetector           ADSimDetector            YES              YES              YES
-ADPILATUS        R2-7                 $(AREA_DETECTOR)/ADPilatus               ADPilatus                YES              YES              YES
+ADPILATUS        R2-9                 $(AREA_DETECTOR)/ADPilatus               ADPilatus                YES              YES              YES
 ADMERLIN         master               $(AREA_DETECTOR)/ADMerlin                ADMerlin                 YES              YES              YES
 ADARAVIS         R3-0                 $(AREA_DETECTOR)/aravisGigE              aravisGigE               NO               NO               NO
 ADEIGER          R2-6                 $(AREA_DETECTOR)/ADEiger                 ADEiger                  YES              NO               NO
 ADGENICAM        master               $(AREA_DETECTOR)/ADGenICam               ADGenICam                NO               NO               NO
 ADMMPAD          master               $(AREA_DETECTOR)/ADMMPAD                 ADMMPAD                  NO               NO               NO
 ADFASTCCD        R1-0                 $(AREA_DETECTOR)/ADFastCCD               ADFastCCD                NO               NO               NO
-ADPOINTGREY      R2-8                 $(AREA_DETECTOR)/ADPointGrey             ADPointGrey              YES              YES              YES
+ADPOINTGREY      R2-9                 $(AREA_DETECTOR)/ADPointGrey             ADPointGrey              YES              YES              YES
 ADPICAM          master               $(AREA_DETECTOR)/ADPICam                 ADPICam                  NO               NO               NO
 ADANDOR          R2-8                 $(AREA_DETECTOR)/ADAndor                 ADAndor                  NO               NO               NO
 ADTIMEPIX        master               $(AREA_DETECTOR)/ADTimePix               ADTimePix                NO               NO               NO

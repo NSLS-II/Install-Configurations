@@ -1,4 +1,4 @@
-# Saved by installSynApps on 2019-12-27 13:26:15.919866
+# Saved by installSynApps on 2020-02-26 09:40:11.060836
 __TARGET_LOC__=$(AREA_DETECTOR)/ADCore/ADApp/commonDriverMakefile
 
 ifdef ADCOMPVISION
