@@ -46,7 +46,7 @@ LOVE             R3_13_base           $(SUPPORT)/love                          l
 LUA              R2-1                 $(SUPPORT)/lua                           lua                      NO               NO               NO
 MCA              R7-8                 $(SUPPORT)/mca                           mca                      YES              YES              YES
 MEASCOMP         R2-4                 $(SUPPORT)/measComp                      measComp                 NO               NO               NO
-MODBUS           R3-0-RC1             $(SUPPORT)/modbus                        modbus                   YES              YES              YES
+MODBUS           R3-0                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
 MOTOR            R7-1                 $(SUPPORT)/motor                         motor                    NO               NO               NO
 OPTICS           R2-13-4              $(SUPPORT)/optics                        optics                   NO               NO               NO
 SOFTGLUE         R2-8-2               $(SUPPORT)/softGlue                      softGlue                 NO               NO               NO
@@ -62,7 +62,7 @@ QUADEM           R9-3                 $(SUPPORT)/quadEM                        q
 
 GIT_URL=https://github.com/paulscherrerinstitute/
 
-STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              NO
+STREAM           2.8.12               $(SUPPORT)/stream                        StreamDevice             YES              YES              NO
 
 WGET_URL=http://www.aps.anl.gov/epics/download/modules/
 
