@@ -1,5 +1,5 @@
 #
-# INSTALL_CONFIG file saved by installSynApps on 2020-04-28 11:48:52.244142
+# INSTALL_CONFIG file saved by installSynApps on 2020-09-18 14:42:46.137663
 #
 
 INSTALL=/epics
@@ -10,7 +10,7 @@ INSTALL=/epics
 
 GIT_URL=https://github.com/epics-base/
 
-EPICS_BASE       R7.0.3.1             $(INSTALL)/base                          epics-base               YES              YES              YES
+EPICS_BASE       R7.0.4.1-rc1         $(INSTALL)/base                          epics-base               YES              YES              YES
 
 GIT_URL=https://github.com/EPICS-synApps/
 
@@ -26,16 +26,16 @@ SNCSEQ           2.2.8                $(SUPPORT)/seq                           s
 GIT_URL=https://github.com/epics-modules/
 
 IPAC             2.15                 $(SUPPORT)/ipac                          ipac                     NO               NO               NO
-ASYN             R4-39                $(SUPPORT)/asyn                          asyn                     YES              YES              YES
+ASYN             R4-40-1              $(SUPPORT)/asyn                          asyn                     YES              YES              YES
 AUTOSAVE         R5-10-1              $(SUPPORT)/autosave                      autosave                 YES              YES              YES
-ALIVE            R1-1-1               $(SUPPORT)/alive                         alive                    NO               NO               NO
+ALIVE            R1-3-0               $(SUPPORT)/alive                         alive                    NO               NO               NO
 BUSY             R1-7-2               $(SUPPORT)/busy                          busy                     YES              YES              YES
 CALC             R3-7-3               $(SUPPORT)/calc                          calc                     YES              YES              YES
 CAMAC            R2-7-2               $(SUPPORT)/camac                         camac                    NO               NO               NO
 CAPUTRECORDER    R3-1                 $(SUPPORT)/caputRecorder                 caputRecorder            YES              YES              YES
 DAC128V          R2-9                 $(SUPPORT)/dac128V                       dac128V                  NO               NO               NO
 DELAYGEN         R1-2-1               $(SUPPORT)/delaygen                      delaygen                 YES              YES              YES
-DEVLIB2          2.10                 $(SUPPORT)/devlib2                       devlib2                  NO               NO               NO
+DEVLIB2          2.11                 $(SUPPORT)/devlib2                       devlib2                  NO               NO               NO
 DXP              R6-0                 $(SUPPORT)/dxp                           dxp                      NO               NO               NO
 DXPSITORO        R1-2                 $(SUPPORT)/dxpSITORO                     dxpSITORO                NO               NO               NO
 DEVIOCSTATS      3.1.16               $(SUPPORT)/iocStats                      iocStats                 YES              YES              YES
@@ -46,8 +46,8 @@ LOVE             R3_13_base           $(SUPPORT)/love                          l
 LUA              R2-1                 $(SUPPORT)/lua                           lua                      NO               NO               NO
 MCA              R7-8                 $(SUPPORT)/mca                           mca                      YES              YES              YES
 MEASCOMP         R2-4                 $(SUPPORT)/measComp                      measComp                 NO               NO               NO
-MODBUS           R3-0                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
-MOTOR            R7-1                 $(SUPPORT)/motor                         motor                    NO               NO               NO
+MODBUS           R3-1                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
+MOTOR            R7-2-1               $(SUPPORT)/motor                         motor                    NO               NO               NO
 OPTICS           R2-13-4              $(SUPPORT)/optics                        optics                   NO               NO               NO
 SOFTGLUE         R2-8-2               $(SUPPORT)/softGlue                      softGlue                 NO               NO               NO
 SOFTGLUEZYNQ     master               $(SUPPORT)/softGlueZynq                  softGlueZynq             NO               NO               NO
@@ -79,8 +79,8 @@ GALIL            V3-6                 $(SUPPORT)/galil                         G
 GIT_URL=https://github.com/areaDetector/
 
 AREA_DETECTOR    R3-9                 $(SUPPORT)/areaDetector                  areaDetector             NO               NO               NO
-ADSUPPORT        R1-9                 $(AREA_DETECTOR)/ADSupport               ADSupport                NO               NO               NO
-ADCORE           R3-9                 $(AREA_DETECTOR)/ADCore                  ADCore                   NO               NO               NO
+ADSUPPORT        R1-9                 $(AREA_DETECTOR)/ADSupport               ADSupport                NO               NO               YES
+ADCORE           R3-9                 $(AREA_DETECTOR)/ADCore                  ADCore                   NO               NO               YES
 
 GIT_URL=https://github.com/epicsNSLS2-areaDetector/
 

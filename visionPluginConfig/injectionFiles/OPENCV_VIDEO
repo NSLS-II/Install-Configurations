@@ -1,4 +1,4 @@
-# Saved by installSynApps on 2020-02-26 09:40:50.620073
+# Saved by installSynApps on 2020-09-18 14:42:58.083102
 __TARGET_LOC__=$(AREA_DETECTOR)/configure/CONFIG_SITE.local
 
 WITH_OPENCV_VIDEO=YES
