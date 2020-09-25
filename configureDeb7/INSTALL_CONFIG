@@ -46,7 +46,7 @@ LOVE             R3_13_base           $(SUPPORT)/love                          l
 LUA              R2-1                 $(SUPPORT)/lua                           lua                      NO               NO               NO
 MCA              R7-8                 $(SUPPORT)/mca                           mca                      YES              YES              YES
 MEASCOMP         R2-4                 $(SUPPORT)/measComp                      measComp                 NO               NO               NO
-MODBUS           R3-1                 $(SUPPORT)/modbus                        modbus                   YES              YES               YES
+MODBUS           master               $(SUPPORT)/modbus                        modbus                   YES              YES               YES
 MOTOR            R7-2-1               $(SUPPORT)/motor                         motor                    YES              YES              YES
 OPTICS           R2-13-4              $(SUPPORT)/optics                        optics                   NO               NO               NO
 SOFTGLUE         R2-8-2               $(SUPPORT)/softGlue                      softGlue                 NO               NO               NO
@@ -104,7 +104,7 @@ GIT_URL=https://github.com/areaDetector/
 ADUVC            R1-4                 $(AREA_DETECTOR)/ADUVC                   ADUVC                    YES              YES              YES
 ADGENICAM        R1-4                 $(AREA_DETECTOR)/ADGenICam               ADGenICam                YES              YES              YES
 ADPROSILICA      R2-5                 $(AREA_DETECTOR)/ADProsilica             ADProsilica              YES              YES              YES
-ADSIMDETECTOR    R2-10                $(AREA_DETECTOR)/ADSimDetector           ADSimDetector            YES              YES              YES
+ADSIMDETECTOR    master               $(AREA_DETECTOR)/ADSimDetector           ADSimDetector            YES              YES              YES
 ADPILATUS        R2-9                 $(AREA_DETECTOR)/ADPilatus               ADPilatus                YES              YES              YES
 ADMERLIN         master               $(AREA_DETECTOR)/ADMerlin                ADMerlin                 YES              YES              YES
 ADARAVIS         R1-3                 $(AREA_DETECTOR)/ADAravis                ADAravis                 NO               NO               NO
