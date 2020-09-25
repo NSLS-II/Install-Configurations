@@ -1,5 +1,5 @@
 #
-# INSTALL_CONFIG file saved by installSynApps on 2020-09-18 14:42:46.137663
+# INSTALL_CONFIG file saved by installSynApps on 2020-09-25 15:31:20.101615
 #
 
 INSTALL=/epics
@@ -26,7 +26,7 @@ SNCSEQ           2.2.8                $(SUPPORT)/seq                           s
 GIT_URL=https://github.com/epics-modules/
 
 IPAC             2.15                 $(SUPPORT)/ipac                          ipac                     NO               NO               NO
-ASYN             R4-40-1              $(SUPPORT)/asyn                          asyn                     YES              YES              YES
+ASYN             R4-41                $(SUPPORT)/asyn                          asyn                     YES              YES              YES
 AUTOSAVE         R5-10-1              $(SUPPORT)/autosave                      autosave                 YES              YES              YES
 ALIVE            R1-3-0               $(SUPPORT)/alive                         alive                    NO               NO               NO
 BUSY             R1-7-2               $(SUPPORT)/busy                          busy                     YES              YES              YES
@@ -78,9 +78,9 @@ GALIL            V3-6                 $(SUPPORT)/galil                         G
 
 GIT_URL=https://github.com/areaDetector/
 
-AREA_DETECTOR    R3-9                 $(SUPPORT)/areaDetector                  areaDetector             NO               NO               NO
+AREA_DETECTOR    R3-10                $(SUPPORT)/areaDetector                  areaDetector             NO               NO               NO
 ADSUPPORT        R1-9                 $(AREA_DETECTOR)/ADSupport               ADSupport                NO               NO               YES
-ADCORE           R3-9                 $(AREA_DETECTOR)/ADCore                  ADCore                   NO               NO               YES
+ADCORE           R3-10                $(AREA_DETECTOR)/ADCore                  ADCore                   NO               NO               YES
 
 GIT_URL=https://github.com/epicsNSLS2-areaDetector/
 
@@ -140,7 +140,7 @@ ADSBIG           master               $(AREA_DETECTOR)/ADSBIG                  A
 FFMPEGVIEWER     master               $(AREA_DETECTOR)/ffmpegViewer            ffmpegViewer             NO               NO               NO
 ADRIXSCAM        master               $(AREA_DETECTOR)/ADRIXSCam               ADRIXSCam                NO               NO               NO
 ADVIEWERS        master               $(AREA_DETECTOR)/ADViewers               ADViewers                NO               NO               NO
-ADSPINNAKER      R2-2                 $(AREA_DETECTOR)/ADSpinnaker             ADSpinnaker              NO               NO               NO
+ADSPINNAKER      R3-0                 $(AREA_DETECTOR)/ADSpinnaker             ADSpinnaker              NO               NO               NO
 ADFIREWIREWIN    master               $(AREA_DETECTOR)/ADFireWireWin           ADFireWireWin            NO               NO               NO
 
 GIT_URL=https://github.com/epicsNSLS2-deploy/

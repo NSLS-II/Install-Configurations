@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # If running behind a proxy, edit this variable to be -c http.proxy=YOUR_PROXY
-GIT_PROXY=""
+GIT_PROXY="-c http.proxy=http://proxy:8888"
 
 echo "Grabbing most recent ADCore tag version..."
 git $GIT_PROXY clone --quiet https://github.com/areaDetector/ADCore
