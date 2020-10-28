@@ -7,7 +7,7 @@ dbLoadRecords("NDPva.template",  "P=$(PREFIX),R=Pva1:, PORT=PVA1,ADDR=0,TIMEOUT=
 # Must start PVA server if this is enabled
 startPVAServer
 
-ffmpegServerConfigure(8081)
+ffmpegServerConfigure($(FFMPEG_SERVER_PORT))
 ffmpegStreamConfigure("FfmStream1", 2, 0, "$(PORT)", 0, -1, 0)
 dbLoadRecords("$(FFMPEGSERVER)/db/ffmpegStream.template", "P=$(PREFIX),R=ffmstream1:,PORT=FfmStream1,NDARRAY_PORT=$(PORT)")
 ffmpegFileConfigure("FfmFile1", 16, 0, "$(PORT)", 0, 0, 0)
