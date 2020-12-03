@@ -1,5 +1,0 @@
-# Saved by installSynApps on 2020-10-16 14:44:35.088190
-__TARGET_LOC__=$(AREA_DETECTOR)/ADCore/iocBoot/EXAMPLE_commonPlugin_settings.req
-
-file "sseqRecord_settings.req",     P=$(P),  S=AcquireSequence
-file "NDPva_settings.req", P=$(P), R=Pva1:
