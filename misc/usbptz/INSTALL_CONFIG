@@ -40,5 +40,6 @@ AREA_DETECTOR    R3-10                $(SUPPORT)/areaDetector                  a
 ADSUPPORT        R1-9                 $(AREA_DETECTOR)/ADSupport               ADSupport                YES              YES              YES
 ADCORE           R3-10                $(AREA_DETECTOR)/ADCore                  ADCore                   YES              YES              YES
 FFMPEGSERVER     master               $(AREA_DETECTOR)/ffmpegServer            ffmpegServer             YES              YES              YES
+ADCOMPVISION     master               $(AREA_DETECTOR)/ADCompVision            ADCompVision             YES              YES              YES
 ADUVC            master               $(AREA_DETECTOR)/ADUVC                   ADUVC                    YES              YES              YES
 
