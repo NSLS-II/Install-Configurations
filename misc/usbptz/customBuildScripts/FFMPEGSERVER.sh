@@ -18,3 +18,6 @@ mv vendor/yasm-1.2.0 vendor/yasm
 
 make -sj
 
+rm vendor/ffmpeg-linux-x86_64/src
+cp vendor/ffmpeg vendor/ffmpeg-linux-x86_64/src
+
