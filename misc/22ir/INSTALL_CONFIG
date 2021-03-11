@@ -1,0 +1,39 @@
+#
+# INSTALL_CONFIG file saved by installSynApps on 2021-03-11 13:54:28.186499
+#
+
+INSTALL=E:\epics
+
+
+#MODULE_NAME    MODULE_VERSION          MODULE_PATH                             MODULE_REPO         CLONE_MODULE    BUILD_MODULE    PACKAGE_MODULE
+#--------------------------------------------------------------------------------------------------------------------------------------------------
+
+GIT_URL=https://github.com/epics-base/
+
+EPICS_BASE       R3.15.3               $(INSTALL)/base                          epics-base               YES              YES              YES
+
+GIT_URL=https://github.com/EPICS-synApps/
+
+SUPPORT          R6-1                 $(INSTALL)/support                       support                  YES              YES              NO
+CONFIGURE        R6-1                 $(SUPPORT)/configure                     configure                YES              YES              NO
+UTILS            R6-1                 $(SUPPORT)/utils                         utils                    YES              YES              NO
+
+WGET_URL=http://www-csr.bessy.de/control/SoftDist/sequencer/releases/
+
+SNCSEQ           2.2.8                $(SUPPORT)/seq                           seq-2.2.8.tar.gz         YES              YES              YES
+
+GIT_URL=https://github.com/epics-modules/
+
+IPAC             2.15                 $(SUPPORT)/ipac                          ipac                     YES              YES              YES
+ASYN             R4-37                $(SUPPORT)/asyn                          asyn                     YES              YES              YES
+AUTOSAVE         R5-10                $(SUPPORT)/autosave                      autosave                 YES              YES              YES
+BUSY             R1-7-2               $(SUPPORT)/busy                          busy                     YES              YES              YES
+CALC             R3-7-3               $(SUPPORT)/calc                          calc                     YES              YES              YES
+DEVIOCSTATS      master               $(SUPPORT)/iocStats                      iocStats                 YES              YES              YES
+IPUNIDIG         R2-11                $(SUPPORT)/ipUnidig                      ipUnidig                 YES              YES              YES
+CAPUTLOG         R3.7                 $(SUPPORT)/caPutLog                      caPutLog                 YES              YES              YES
+
+WGET_URL=https://github.com/EPICSTools/ether_ip/archive/
+
+ETHERIP          2-26                 $(SUPPORT)/ether_ip                      ether_ip-$(VERSION).tar.gz YES            YES              YES
+
