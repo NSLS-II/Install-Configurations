@@ -80,7 +80,7 @@ ADPERKINELMER    master               $(AREA_DETECTOR)/ADPerkinElmer           A
 ADGENICAM        master               $(AREA_DETECTOR)/ADGenICam               ADGenICam                NO               NO               NO
 ADANDOR3         master               $(AREA_DETECTOR)/ADAndor3                ADAndor3                 YES              YES              YES
 ADPROSILICA      R2-5                 $(AREA_DETECTOR)/ADProsilica             ADProsilica              YES              YES              YES
-ADSIMDETECTOR    R2-10                $(AREA_DETECTOR)/ADSimDetector           ADSimDetector            YES              YES              YES
+ADSIMDETECTOR    master               $(AREA_DETECTOR)/ADSimDetector           ADSimDetector            YES              YES              YES
 ADPILATUS        R2-9                 $(AREA_DETECTOR)/ADPilatus               ADPilatus                YES              YES              YES
 ADMERLIN         master               $(AREA_DETECTOR)/ADMerlin                ADMerlin                 YES              YES              YES
 ADARAVIS         master               $(AREA_DETECTOR)/ADAravis                ADAravis                 NO               NO               NO
