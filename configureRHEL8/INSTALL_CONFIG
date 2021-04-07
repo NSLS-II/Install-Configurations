@@ -45,7 +45,7 @@ SMAR_ACT         R1-2-1               $(SUPPORT)/motor/modules/motorSmarAct    m
 DELTA_TAU        R1-0-1               $(SUPPORT)/motor/modules/motorDeltaTau   motorDeltaTau            YES              YES              YES
 PIGCS2           R1-1                 $(SUPPORT)/motor/modules/motorPIGCS2     motorPIGCS2              YES              YES              YES
 
-WGET_URL=https://epics.anl.gov/download/modules/PrologixGPIB-01.01.tar.gz
+WGET_URL=https://epics.anl.gov/download/modules/
 
 PROLOGIX_GPIB    01.01                $(SUPPORT)/PrologixGPIB                  PrologixGPIB-$(VERSION).tar.gz  YES       YES              YES
 
@@ -53,12 +53,12 @@ GIT_URL=https://github.com/slac-epics/
 
 SNMP             R2.5                 $(SUPPORT)/snmp                          snmp                     YES              YES              YES
 
-WGET_URL=http://controls.diamond.ac.uk/downloads/support/eurotherm2k/
+WGET_URL=http://controls.diamond.ac.uk/downloads/support/eurotherm2k/1-22
 
-EUROTHERM2K     1-22                  $(SUPPORT)/eurotherm2k                   $(VERSION)/eurotherm2k-$(VERSION).tgz    YES YES           YES
+EUROTHERM2K     1-22                  $(SUPPORT)/eurotherm2k                   eurotherm2k-$(VERSION).tgz    YES YES           YES
 
 
-GIT_URL=https://github.com/ChannelFinder/recsync
+GIT_URL=https://github.com/ChannelFinder
 
 RECSYNC          master               $(SUPPORT)/recsync                       recsync                  YES              YES              YES
 
@@ -67,7 +67,7 @@ GIT_URL=https://github.com/paulscherrerinstitute/
 
 STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
 
-GIT_URL=https://github.com/EPICSTools/ether_ip
+GIT_URL=https://github.com/EPICSTools/
 
 ETHER_IP        master                $(SUPPORT)/ether_ip                      ether_ip                 YES              YES              YES
 
