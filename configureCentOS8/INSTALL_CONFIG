@@ -68,9 +68,9 @@ WGET_URL=http://www.aps.anl.gov/epics/download/modules/
 
 ALLENBRADLEY     2.3                  $(SUPPORT)/allenBradley                  allenBradley-$(VERSION).tar.gz NO               NO               NO
 
-WGET_URL=https://github.com/EPICSTools/ether_ip/archive/
+GIT_URL=https://github.com/jwlodek/ether_ip/
 
-ETHERIP          2-26                 $(SUPPORT)/ether_ip                      ether_ip-$(VERSION).tar.gz NO               NO               NO
+ETHER_IP          master                 $(SUPPORT)/ether_ip                      ether_ip YES               YES               YES
 
 GIT_URL=https://github.com/motorapp/
 
