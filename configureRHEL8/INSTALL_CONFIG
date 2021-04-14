@@ -38,38 +38,27 @@ QUADEM           R9-4                 $(SUPPORT)/quadEM                        q
 TPMAC            master               $(SUPPORT)/tpmac                         tpmac                    YES              YES              YES
 CAPUTLOG         R3.7                 $(SUPPORT)/caPutLog                      caPutLog                 YES              YES              YES
 MODBUS           R3-2                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
+LUA              R3-0-2               $(SUPPORT)/lua                           lua                      YES              YES              YES
 
-GIT_URL=https://github.com/epics-motor/
 
-SMAR_ACT         R1-2-1               $(SUPPORT)/motor/modules/motorSmarAct    motorSmarAct             YES              YES              YES
-DELTA_TAU        R1-0-1               $(SUPPORT)/motor/modules/motorDeltaTau   motorDeltaTau            YES              YES              YES
-PIGCS2           R1-1                 $(SUPPORT)/motor/modules/motorPIGCS2     motorPIGCS2              YES              YES              YES
+# Hacky solution here for modules with non-standard formats. Just standardize them instead of working around them
+GIT_URL=https://github.com/jwlodek
 
-WGET_URL=https://epics.anl.gov/download/modules/
-
-PROLOGIX_GPIB    01.01                $(SUPPORT)/PrologixGPIB                  PrologixGPIB-$(VERSION).tar.gz  YES       YES              YES
-
-GIT_URL=https://github.com/slac-epics/
-
-SNMP             R2.5                 $(SUPPORT)/snmp                          snmp                     YES              YES              YES
-
-WGET_URL=http://controls.diamond.ac.uk/downloads/support/eurotherm2k/1-22
-
-EUROTHERM2K     1-22                  $(SUPPORT)/eurotherm2k                   eurotherm2k-$(VERSION).tgz    YES YES           YES
+PROLOGIX_GPIB    master               $(SUPPORT)/PrologixGPIB                  PrologixGPIB             YES              YES              YES
+SNMP             master               $(SUPPORT)/snmp                          snmp                     YES              YES              YES
+EUROTHERM2K      master               $(SUPPORT)/eurotherm2k                   eurotherm2k              YES              YES              YES
+ETHER_IP         master               $(SUPPORT)/ether_ip                      ether_ip                 YES              YES              YES
 
 
 GIT_URL=https://github.com/ChannelFinder
 
-RECSYNC          master               $(SUPPORT)/recsync                       recsync                  YES              YES              YES
+RECCASTER       master               $(SUPPORT)/reccaster                       recsync                  YES              YES              YES
 
 
 GIT_URL=https://github.com/paulscherrerinstitute/
 
 STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
 
-GIT_URL=https://github.com/EPICSTools/
-
-ETHER_IP        master                $(SUPPORT)/ether_ip                      ether_ip                 YES              YES              YES
 
 GIT_URL=https://github.com/areaDetector/
 
