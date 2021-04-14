@@ -42,7 +42,7 @@ LUA              R3-0-2               $(SUPPORT)/lua                           l
 
 
 # Hacky solution here for modules with non-standard formats. Just standardize them instead of working around them
-GIT_URL=https://github.com/jwlodek
+GIT_URL=https://github.com/jwlodek/
 
 PROLOGIX_GPIB    master               $(SUPPORT)/PrologixGPIB                  PrologixGPIB             YES              YES              YES
 SNMP             master               $(SUPPORT)/snmp                          snmp                     YES              YES              YES
@@ -50,7 +50,7 @@ EUROTHERM2K      master               $(SUPPORT)/eurotherm2k                   e
 ETHER_IP         master               $(SUPPORT)/ether_ip                      ether_ip                 YES              YES              YES
 
 
-GIT_URL=https://github.com/ChannelFinder
+GIT_URL=https://github.com/ChannelFinder/
 
 RECCASTER       master               $(SUPPORT)/reccaster                       recsync                  YES              YES              YES
 
