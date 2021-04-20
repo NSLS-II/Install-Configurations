@@ -58,6 +58,7 @@ RECCASTER       master               $(SUPPORT)/reccaster                       
 GIT_URL=https://github.com/paulscherrerinstitute/
 
 STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
+S7PLC            master               $(SUPPORT)/s7plc                         s7plc                    YES              YES              YES
 
 
 GIT_URL=https://github.com/areaDetector/
