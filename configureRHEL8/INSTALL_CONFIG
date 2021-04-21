@@ -33,12 +33,12 @@ DEVIOCSTATS      master               $(SUPPORT)/iocStats                      i
 SSCAN            R2-11-3              $(SUPPORT)/sscan                         sscan                    YES              YES              YES
 IPUNIDIG         R2-12                $(SUPPORT)/ipUnidig                      ipUnidig                 YES              YES              YES
 XSPRESS3         master               $(SUPPORT)/xspress3                      xspress3                 YES              YES              YES
-MOTOR            R7-2-2               $(SUPPORT)/motor                         motor                    YES              YES              YES
 QUADEM           R9-4                 $(SUPPORT)/quadEM                        quadEM                   YES              YES              YES
-TPMAC            master               $(SUPPORT)/tpmac                         tpmac                    YES              YES              YES
 CAPUTLOG         R3.7                 $(SUPPORT)/caPutLog                      caPutLog                 YES              YES              YES
 MODBUS           R3-2                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
 LUA              R3-0-2               $(SUPPORT)/lua                           lua                      YES              YES              YES
+MOTOR            R7-2-2               $(SUPPORT)/motor                         motor                    YES              YES              YES
+TPMAC            master               $(SUPPORT)/tpmac                         tpmac                    YES              YES              YES
 
 
 # Hacky solution here for modules with non-standard formats. Just standardize them instead of working around them
