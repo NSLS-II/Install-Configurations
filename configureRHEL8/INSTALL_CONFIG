@@ -48,6 +48,7 @@ PROLOGIX_GPIB    master               $(SUPPORT)/PrologixGPIB                  P
 SNMP             master               $(SUPPORT)/snmp                          snmp                     YES              YES              YES
 EUROTHERM2K      master               $(SUPPORT)/eurotherm2k                   eurotherm2k              YES              YES              YES
 ETHER_IP         master               $(SUPPORT)/ether_ip                      ether_ip                 YES              YES              YES
+S7PLC            master               $(SUPPORT)/s7plc                         s7plc                    YES              YES              YES
 
 
 GIT_URL=https://github.com/ChannelFinder/
@@ -58,7 +59,6 @@ RECCASTER       master               $(SUPPORT)/reccaster                       
 GIT_URL=https://github.com/paulscherrerinstitute/
 
 STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
-S7PLC            master               $(SUPPORT)/s7plc                         s7plc                    YES              YES              YES
 
 
 GIT_URL=https://github.com/areaDetector/
