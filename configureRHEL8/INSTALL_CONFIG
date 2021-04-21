@@ -61,7 +61,13 @@ RECCASTER       master               $(SUPPORT)/reccaster                       
 
 GIT_URL=https://github.com/paulscherrerinstitute/
 
-STREAM           2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
+STREAM          2.8.10               $(SUPPORT)/stream                        StreamDevice             YES              YES              YES
+
+
+GIT_URL=https://github.com/epics-extensions/
+
+EXTENSIONS      master               $(INSTALL)/extensions                    extensions               YES              YES              YES
+MEDM            master               $(EXTENSIONS)/src/medm                   medm                     YES              NO               NO
 
 
 GIT_URL=https://github.com/areaDetector/
