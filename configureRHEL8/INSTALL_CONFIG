@@ -30,16 +30,21 @@ AUTOSAVE         R5-10-2              $(SUPPORT)/autosave                      a
 BUSY             R1-7-3               $(SUPPORT)/busy                          busy                     YES              YES              YES
 CALC             R3-7-3               $(SUPPORT)/calc                          calc                     YES              YES              YES
 DEVIOCSTATS      master               $(SUPPORT)/iocStats                      iocStats                 YES              YES              YES
+SCALER           master               $(SUPPORT)/scaler                        scaler                   YES              YES              YES
 SSCAN            R2-11-3              $(SUPPORT)/sscan                         sscan                    YES              YES              YES
 IPUNIDIG         R2-12                $(SUPPORT)/ipUnidig                      ipUnidig                 YES              YES              YES
 XSPRESS3         master               $(SUPPORT)/xspress3                      xspress3                 YES              YES              YES
 QUADEM           R9-4                 $(SUPPORT)/quadEM                        quadEM                   YES              YES              YES
 CAPUTLOG         R3.7                 $(SUPPORT)/caPutLog                      caPutLog                 YES              YES              YES
+STD              R3-6-2               $(SUPPORT)/std                           std                      YES              YES              YES
+MCA              R7-9                 $(SUPPORT)/mca                           mca                      YES              YES              YES
+IP               R2-21                $(SUPPORT)/ip                            ip                       YES              YES              YES
+DELAYGEN         R1-2-2               $(SUPPORT)/delaygen                      delaygen                 YES              YES              YES
 MODBUS           R3-2                 $(SUPPORT)/modbus                        modbus                   YES              YES              YES
 LUA              R3-0-2               $(SUPPORT)/lua                           lua                      YES              YES              YES
 MOTOR            R7-2-2               $(SUPPORT)/motor                         motor                    YES              YES              YES
 TPMAC            master               $(SUPPORT)/tpmac                         tpmac                    YES              YES              YES
-
+CAMAC            R2-7-3               $(SUPPORT)/camac                         camac                    YES              YES              YES
 
 
 # Hacky solution here for modules with non-standard formats. Just standardize them instead of working around them
@@ -52,6 +57,7 @@ ETHER_IP         master               $(SUPPORT)/ether_ip                      e
 S7PLC            master               $(SUPPORT)/s7plc                         s7plc                    YES              YES              YES
 GENSUB           master               $(SUPPORT)/genSub                        genSub                   YES              YES              YES
 PMACUTIL         master               $(SUPPORT)/pmacutil                      pmacutil                 YES              YES              YES
+HEXAPODPIMOTOR   master               $(SUPPORT)/hexapodPIMotor                hexapodPIMotor           YES              YES              YES
 
 
 GIT_URL=https://github.com/ChannelFinder/
@@ -68,6 +74,11 @@ GIT_URL=https://github.com/epics-extensions/
 
 EXTENSIONS      master               $(SUPPORT)/extensions                    extensions               YES              YES              YES
 MEDM            master               $(EXTENSIONS)/src/medm                   medm                     YES              NO               NO
+
+
+GIT_URL=https://github.com/jwlodek/
+
+EDM             master               $(EXTENSIONS)/src/edm                    edm                      YES              NO               NO
 
 
 GIT_URL=https://github.com/areaDetector/
