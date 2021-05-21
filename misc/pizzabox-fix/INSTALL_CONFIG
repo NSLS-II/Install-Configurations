@@ -30,3 +30,9 @@ DEVIOCSTATS      master               $(SUPPORT)/iocStats                      i
 SSCAN            R2-11                $(SUPPORT)/sscan                         sscan                    YES              YES              YES
 CAPUTLOG         R3.6                 $(SUPPORT)/caPutLog                      caPutLog                 YES              YES              YES
 
+
+GIT_URL=https://github.com/ChannelFinder/
+
+RECCASTER       master               $(SUPPORT)/reccaster                       recsync                  YES              YES              YES
+
+
