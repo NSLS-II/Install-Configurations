@@ -58,6 +58,7 @@ S7PLC            master               $(SUPPORT)/s7plc                         s
 GENSUB           master               $(SUPPORT)/genSub                        genSub                   YES              YES              YES
 PMACUTIL         master               $(SUPPORT)/pmacutil                      pmacutil                 YES              YES              YES
 HEXAPODPIMOTOR   master               $(SUPPORT)/hexapodPIMotor                hexapodPIMotor           YES              YES              YES
+VACTRL           master               $(SUPPORT)/vactrl                        vactrl                   YES              YES              YES
 
 
 GIT_URL=https://github.com/ChannelFinder/
